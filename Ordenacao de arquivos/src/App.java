@@ -1,6 +1,6 @@
 public class App {
     public static void main(String[] args) {
-        long[] vetor = LeitorVetor.lerVetor("arquivos/500000_desordenado.txt");
+        long[] vetor = LeitorVetor.lerVetor("./arquivos/1000000_ordenado.txt");
 
         System.out.println("Insertion Sort");
         InsertionSort.Resultados resultadoIs = InsertionSort.ordenar(vetor);

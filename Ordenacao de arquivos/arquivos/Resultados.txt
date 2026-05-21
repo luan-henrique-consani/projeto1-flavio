@@ -114,18 +114,85 @@ Trocas: 499984
 Tempo: 80940.6057 ms
 ----------------------
 500.000 inverso:
+Comparações: 124999750000
+Trocas: 124999750000
+Tempo: 127788.604828 ms
+
+Bubble Sort
+Comparações: 124999750000
+Trocas: 124999750000
+Tempo: 144286.814649 ms
+
+Selection Sort
+Comparações: 124999750000
+Trocas: 250000
+Tempo: 85593.674451 ms
 
 ----------------------
 500.000 ordenado:
+Insertion Sort
+Comparações: 499999
+Trocas: 0
+Tempo: 5.402966 ms
 
+Bubble Sort
+Comparações: 124999750000
+Trocas: 0
+Tempo: 87479.302034 ms
+
+Selection Sort
+Comparações: 124999750000
+Trocas: 0
+Tempo: 78458.681572 ms
 ----------------------
 1.000.000 desordenado:
+Insertion Sort
+Comparações: 250098193241
+Trocas: 250097193252
+Tempo: 267287.135283 ms
+
+Bubble Sort
+Comparações: 499999500000
+Trocas: 250097193252
+Tempo: 1390322.204826 ms
+
+Selection Sort
+Comparações: 499999500000
+Trocas: 999982
+Tempo: 393206.094529 ms
 
 ----------------------
 1.000.000 inverso
+Insertion Sort
+Comparações: 499999500000
+Trocas: 499999500000
+Tempo: 519941.337303 ms
 
+Bubble Sort
+Comparações: 499999500000
+Trocas: 499999500000
+Tempo: 595242.207467 ms
+
+Selection Sort
+Comparações: 499999500000
+Trocas: 500000
+Tempo: 352161.626282 ms
 ----------------------
 1.000.000 ordenado
+Insertion Sort
+Comparações: 999999
+Trocas: 0
+Tempo: 8.864259 ms
+
+Bubble Sort
+Comparações: 499999500000
+Trocas: 0
+Tempo: 342649.003066 ms
+
+Selection Sort
+Comparações: 499999500000
+Trocas: 0
+Tempo: 289610.821121 ms
 
 ----------------------
 
