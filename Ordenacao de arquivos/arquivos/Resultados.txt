@@ -1,0 +1,132 @@
+10.000 desordenado: 
+
+Insertion Sort
+Comparações: 25122529
+Trocas: 25112537
+Tempo: 19.9836 ms
+
+Bubble Sort
+Comparações: 49995000
+Trocas: 25112537
+Tempo: 69.8445 ms
+
+Selection Sort
+Comparações: 49995000
+Trocas: 9991
+Tempo: 15.4903 ms
+
+----------------------
+10.000 inverso:
+Insertion Sort
+Comparações: 49995000
+Trocas: 49995000
+Tempo: 33.5762 ms
+
+Bubble Sort
+Comparações: 49995000
+Trocas: 49995000
+Tempo: 24.6513 ms
+
+Selection Sort
+Comparações: 49995000
+Trocas: 5000
+Tempo: 14.6873 ms
+----------------------
+10.000 ordenado
+Insertion Sort
+Comparações: 9999
+Trocas: 0
+Tempo: 0.2233 ms
+
+Bubble Sort
+Comparações: 49995000
+Trocas: 0
+Tempo: 10.0787 ms
+
+Selection Sort
+Comparações: 49995000
+Trocas: 0
+Tempo: 9.6283 ms
+----------------------
+100.000 desordenado:
+Insertion Sort
+Comparações: 2499946286
+Trocas: 2499846302
+Tempo: 1927.6191 ms
+
+Bubble Sort
+Comparações: 4999950000
+Trocas: 2499846302
+Tempo: 11328.4155 ms
+
+Selection Sort
+Comparações: 4999950000
+Trocas: 99994
+Tempo: 3086.7526 ms
+
+----------------------
+100.000 inverso:
+Insertion Sort
+Comparações: 4999950000
+Trocas: 4999950000
+Tempo: 3545.5082 ms
+
+Bubble Sort
+Comparações: 4999950000
+Trocas: 4999950000
+Tempo: 4863.5592 ms
+
+Selection Sort
+Comparações: 4999950000
+Trocas: 50000
+Tempo: 2918.5496 ms
+----------------------
+100.000 ordenado:
+Insertion Sort
+Comparações: 99999
+Trocas: 0
+Tempo: 2.0349 ms
+
+Bubble Sort
+Comparações: 4999950000
+Trocas: 0
+Tempo: 2934.9025 ms
+
+Selection Sort
+Comparações: 4999950000
+Trocas: 0
+Tempo: 2432.2318 ms
+----------------------
+500.000 desordenado:
+Insertion Sort
+Comparações: 62466584802
+Trocas: 62466084818
+Tempo: 48468.4916 ms
+
+Bubble Sort
+Comparações: 124999750000
+Trocas: 62466084818
+Tempo: 303292.2669 ms
+
+Selection Sort
+Comparações: 124999750000
+Trocas: 499984
+Tempo: 80940.6057 ms
+----------------------
+500.000 inverso:
+
+----------------------
+500.000 ordenado:
+
+----------------------
+1.000.000 desordenado:
+
+----------------------
+1.000.000 inverso
+
+----------------------
+1.000.000 ordenado
+
+----------------------
+
+
