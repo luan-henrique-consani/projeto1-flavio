@@ -1,27 +1,34 @@
 public class App {
     public static void main(String[] args) {
-        long[] vetor = LeitorVetor.lerVetor("./arquivos/1000000_ordenado.txt");
 
-        System.out.println("Insertion Sort");
-        InsertionSort.Resultados resultadoIs = InsertionSort.ordenar(vetor);
-        System.out.println("Comparações: " + resultadoIs.comparacoes());
-        System.out.println("Trocas: " + resultadoIs.trocas());
-        System.out.println("Tempo: " + resultadoIs.tempoExecucaoMs() + " ms");
-        System.out.println("");
+        String[] arquivos = {
+            "10000_desordenado",
+            "10000_inverso",
+            "10000_ordenado",
+            "100000_desordenado",
+            "100000_inverso",
+            "100000_ordenado",
+            "500000_desordenado",
+            "500000_inverso",
+            "500000_ordenado",
+            "1000000_desordenado",
+            "1000000_inverso",
+            "1000000_ordenado"
+        };
 
-        System.out.println("Bubble Sort");
-        BubbleSort.Resultados resultadoBs = BubbleSort.ordenar(vetor);
-        System.out.println("Comparações: " + resultadoBs.comparacoes());
-        System.out.println("Trocas: " + resultadoBs.trocas());
-        System.out.println("Tempo: " + resultadoBs.tempoExecucaoMs() + " ms");
-        System.out.println("");
+        for (String arquivo : arquivos) {
+            long[] vetor = LeitorVetor.lerVetor("./arquivos/" + arquivo + ".txt");
 
-        System.out.println("Selection Sort");
-        SelectionSort.Resultados resultadoSs = SelectionSort.ordenar(vetor);
-        System.out.println("Comparações: " + resultadoSs.comparacoes());
-        System.out.println("Trocas: " + resultadoSs.trocas());
-        System.out.println("Tempo: " + resultadoSs.tempoExecucaoMs() + " ms");
-        System.out.println("");
+            MergeSort.Resultados resultadoMs = MergeSort.ordenar(vetor);
 
+            System.out.println("------------------------------------");
+            System.out.println(arquivo);
+            System.out.println("Merge Sort:");
+            System.out.println("Comparações: " + resultadoMs.comparacoes());
+            System.out.println("Trocas: "      + resultadoMs.trocas());
+            System.out.println("Tempo: "       + resultadoMs.tempoExecucaoMs() + " ms");
+            System.out.println("------------------------------------");
+            System.out.println();
+        }
     }
 }
